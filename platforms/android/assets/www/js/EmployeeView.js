@@ -1,12 +1,9 @@
 var EmployeeView = function(employee) {
-    var mapView;
 
     this.initialize = function() {
         this.$el = $('<div/>');
         this.$el.on('click', '.add-contact-btn', this.addToContacts);
-        this.$el.on('click', '.add-location-btn', this.addLocation);
         this.$el.on('click', '.change-pic-btn', this.changePicture);
-        mapView = new MapView();
     };
 
     this.render = function() {
@@ -30,12 +27,6 @@ var EmployeeView = function(employee) {
         contact.save();
         return false;
     };	
-
-    this.addLocation = function(event) {
-        console.log("addLocation");
-        event.preventDefault();
-        return false;
-    };
 
     this.changePicture = function(event) {
         event.preventDefault();

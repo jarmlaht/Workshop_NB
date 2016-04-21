@@ -3,23 +3,23 @@ var MapView = function() {
     this.initialize = function() {
         console.log("MapView: initialize");
         this.$el = $('<div/>');
-        this.render();
     };
 
     this.render = function() {
         console.log("MapView: render");
         this.$el.html(this.template());
-        $('.content', this.$el).html('hiihaa');
+        this.getLocation();
         return this;    
     };
 
-    this.getLocation = function(){
+    this.getLocation = function() {
         navigator.geolocation.getCurrentPosition(function(position) {
+            $('.coordinates', this.$el).html(position.coords.latitude + ',' + position.coords.longitude);
+            console.log('Lat: ' + position.coords.latitude + ',<br>Lon: ' + position.coords.longitude);
         },
         function() {
             alert('Error getting location');
         });
-        this.render();
     };
 
     this.initialize();

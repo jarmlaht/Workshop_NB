@@ -19,9 +19,9 @@
                 slider.slidePage(new EmployeeView(employee).render().$el);
             });
         });
-        router.addRoute('map/', function() {
-            console.log("addRoute: map");
-            slider.slidePage(new MapView().render().$el);
+        router.addRoute('mapview', function() {
+            console.log("addRoute: mapview");
+            slider.slidePage(new MapView().render().$el);            
         });
         router.start();
     });
