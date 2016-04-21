@@ -14,11 +14,13 @@
         });
 
         router.addRoute('employees/:id', function(id) {
+            console.log("employees: " + id);
             service.findById(parseInt(id)).done(function(employee) {
                 slider.slidePage(new EmployeeView(employee).render().$el);
             });
         });
-        router.addRoute('map', function() {
+        router.addRoute('map/', function() {
+            console.log("addRoute: map");
             slider.slidePage(new MapView().render().$el);
         });
         router.start();

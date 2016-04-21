@@ -1,5 +1,4 @@
-var EmployeeListView = function () {
-
+var EmployeeListView = function() {
     var employees;
 
     this.initialize = function() {
@@ -19,4 +18,4 @@ var EmployeeListView = function () {
 
     this.initialize();
 
-}
+};

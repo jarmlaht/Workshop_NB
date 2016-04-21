@@ -25,13 +25,7 @@
         "cordova-plugin-camera": {
             "PACKAGE_NAME": "com.jarmo.workshop"
         },
-        "cordova-plugin-globalization": {
-            "PACKAGE_NAME": "com.jarmo.workshop"
-        },
         "cordova-plugin-media": {
-            "PACKAGE_NAME": "com.jarmo.workshop"
-        },
-        "cordova-plugin-file-transfer": {
             "PACKAGE_NAME": "com.jarmo.workshop"
         },
         "cordova-plugin-media-capture": {
@@ -43,19 +37,7 @@
         "cordova-plugin-file": {
             "PACKAGE_NAME": "com.jarmo.workshop"
         },
-        "cordova-plugin-battery-status": {
-            "PACKAGE_NAME": "com.jarmo.workshop"
-        },
-        "cordova-plugin-device-motion": {
-            "PACKAGE_NAME": "com.jarmo.workshop"
-        },
-        "cordova-plugin-vibration": {
-            "PACKAGE_NAME": "com.jarmo.workshop"
-        },
         "cordova-plugin-network-information": {
-            "PACKAGE_NAME": "com.jarmo.workshop"
-        },
-        "cordova-plugin-splashscreen": {
             "PACKAGE_NAME": "com.jarmo.workshop"
         },
         "cordova-plugin-whitelist": {

@@ -1,6 +1,6 @@
-var MapView = function () {
+var MapView = function() {
 	
-    this.initialize = function () {
+    this.initialize = function() {
         console.log("MapView: initialize");
         this.$el = $('<div/>');
         this.render();
@@ -23,5 +23,5 @@ var MapView = function () {
     };
 
     this.initialize();
-}
+};
 

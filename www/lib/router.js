@@ -1,5 +1,4 @@
 var router = (function () {
-
     "use strict";
 
     var routes = [];
@@ -13,7 +12,6 @@ var router = (function () {
     }
 
     function start() {
-
         var path = window.location.hash.substr(1),
             parts = path.split('/'),
             partsLength = parts.length;

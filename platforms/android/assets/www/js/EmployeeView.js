@@ -33,7 +33,7 @@ var EmployeeView = function(employee) {
 
     this.addLocation = function(event) {
         console.log("addLocation");
-        //event.preventDefault();
+        event.preventDefault();
         return false;
     };
 
@@ -62,4 +62,4 @@ var EmployeeView = function(employee) {
 
     this.initialize();
 
-}
+};

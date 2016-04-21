@@ -22,4 +22,4 @@ var HomeView = function (service) {
     };
 
     this.initialize();
-}
+};
